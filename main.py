@@ -9,7 +9,7 @@ cuenta = CuentaBancaria("Jorge Codes", 1000)
 cuenta.__titular = "Ricardito"
 cuenta.__saldo = 10000000000
 
-cuenta.depositar(-500)
+cuenta.depositar(500)
 print(cuenta.obtener_saldo())
 
 
